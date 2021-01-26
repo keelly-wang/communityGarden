@@ -2,9 +2,9 @@
   "//1": "describes your app and its dependencies",
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
-  "name": "hello-sqlite",
+  "name": "community-garden",
   "version": "0.0.1",
-  "description": "A simple Node app with SQLite as a database management system, instantly up and running.",
+  "description": "A simple browser game where you start a garden with your friends, journal about the process, (and discover the secrets of the universe)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -20,12 +20,11 @@
     "node": "12.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-sqlite"
+    "url": "https://github.com/keelly-wang/communityGarden"
   },
   "license": "MIT",
   "keywords": [
     "node",
-    "glitch",
     "express"
   ]
 }

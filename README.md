@@ -1,25 +1,21 @@
-# hello-sqlite
+# Community Garden
 
-A starter that has a database
+A browser game where you start a garden with your friends, journal about the process, (and discover the secrets of the universe)
 
-- This app uses sqlite but you can power your apps with [a number of other storage options](https://glitch.com/storage)
-- `sqlite.db` is created and put into the `.data` folder, a hidden directory whose contents aren’t copied when a project is remixed. You can see the contents of `.data` in the console under "Logs"
-- To save to the database, remix this app!
+Built as part of Hack the North 2020. This was our first browser game so we didn't get very far at the hackathon itself, but we are continuing to develop it!
 
-On the front-end,
+Completed tasks:
+- Room creation and room data storage (via sqlite)
+- Basic planting, watering, and harvesting controls
+- Communication between multiple concurrent users in one room (via socket.io)
 
-- Edit `views/index.html`,  `public/style.css`, and `public/client.js`
-- Drag in `assets`, like images or music, to add them to your project
+Current tasks:
+- Add community journal to each room
+- Add more plants
+- Implement plant growth logic (in response to time/watering)
+- Incorporate SVG graphics
 
-On the back-end,
-
-- Your app starts at `server.js`
-- Add frameworks and packages in `package.json`
-- Safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
-
-
-## Made by [Glitch](https://glitch.com/)
-
-\ ゜ o ゜)ノ
+Future tasks:
+- Add in-game chat
+- Develop inventory and cross system (the crosses should be where the 'secrets of the universe' part comes in)
+- Add music and sound effects
